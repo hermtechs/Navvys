@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
     <title>Mavy's creative</title>
 </head>
 <body>
@@ -16,11 +16,18 @@
     <nav>
         <!-- <h3>Cyber Security Academy</h3> -->
         <img src="./img/navvys-logo.png" alt="" class="logo">
+
+        <div class="nav-right">
+        <div class="cart-count-container">
+         <span class="shopping-cart-count">1</span>   
+        <i class="fa fa-shopping-cart"></i>
+         </div>    
         <div class="nav-bars">
             <span></span>
             <span></span>
             <span></span>
         </div>  
+    </div>
         <div class="nav-links">
          <div class="links">
             <a href="#about-us">About Us</a>
@@ -325,5 +332,62 @@
         </div>
     </div>
 </section>
+
+<div class="audio-player-container">
+    <div class="audio-progress-bar"></div>
+    <img src="./img/red bg.jpg" alt="" class="beat-icon">
+    <p class="audio-title"> Evening chill beat</p>
+    <div class="controls-audio">
+        <i class="fa fa-share-alt"></i>
+        <i class="fas fa-step-backward audio-prev-btn"></i> 
+        <i class="fas fa-play audio-play-btn fa-lg"></i> 
+        <i class="fas fa-step-forward audio-next-btn"></i> 
+    </div> 
+</div>
+
+
+<div class="shopping-cart-container">
+   <button class="close-cart-btn">
+    <i class="fas fa-times close-cart"></i>
+   </button> 
+  <div class="all-cart-items-wrapper">
+  <div class="item-titles">
+    <h4>product</h4>
+    <h4>product Name</h4>
+    <div>Price</div>
+  </div>
+
+  <div class="cart-items-container">
+   <div class="cart-image">
+    <img src="./img/red bg.jpg" alt="">
+   </div>
+   <p class="product-title">Beat and song1</p> 
+    <h5 class="product-price">$30</h5>
+  </div>
+  <div class="cart-items-container">
+    <div class="cart-image">
+     <img src="./img/red bg.jpg" alt="">
+    </div>
+    <p class="product-title">Beat and song1</p> 
+     <h5 class="product-price">$30</h5>
+   </div>
+   
+   <div class="cart-items-container">
+    <div class="cart-image">
+     <img src="./img/red bg.jpg" alt="">
+    </div>
+    <p class="product-title">Beat and song1</p> 
+     <h5 class="product-price">$30</h5>
+   </div>
+
+   <div class="cart-items-container">
+    <div class="cart-image">
+     <img src="./img/red bg.jpg" alt="">
+    </div>
+    <p class="product-title">Beat and song1</p> 
+     <h5 class="product-price">$30</h5>
+   </div>
+</div>    
+</div>
 
 </body>
