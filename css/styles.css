@@ -385,6 +385,8 @@ justify-items: center;
 flex-direction: column;
 align-items: center;
 overflow-y: scroll;
+margin-left: 2rem;
+margin-right: 2rem;
 }
 .album-art-container{
     display: flex;
