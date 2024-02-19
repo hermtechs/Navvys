@@ -196,9 +196,11 @@ nav h3{
     justify-content: center;
 }
 .search-filters-container{
-    /* max-width: 800px; */
+    max-width: 1000px;
+    width: 100%;
     display: grid;
     gap: 0.8rem;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -210,11 +212,12 @@ nav h3{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* max-width: 800px; */
+    justify-items: center;
+    max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
-    margin: 1rem;
     color: #fff;
-    padding: 1rem 0.5rem;
+    padding: 1rem 1.2rem;
     border-bottom: 1px solid #8C0C0Cff
 }
 .play-btn-container{
@@ -243,6 +246,8 @@ nav h3{
     justify-content: space-between;
     /* max-width: 800px; */
     /* position: relative; */
+    /* max-width: 800px;
+    width: 100%; */
     position: fixed;
     bottom: 0;
     left: 0;
@@ -335,6 +340,8 @@ font-size: 0.9rem;
     padding: 1rem;
     align-items: center;
     max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
 }
 .item-titles{
     text-transform: uppercase;
@@ -369,11 +376,13 @@ font-size: 0.9rem;
 .checkout-container{
     background: #100834;
     padding: 2rem;
-    max-width: 800px;
-    margin-top: 1.6rem;
+    /* margin-top: 1.6rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 800px;
+    width: 100%;
+    margin: 1.6rem auto;
 }
 .total-price{
     display: flex;
@@ -401,10 +410,11 @@ margin-top: 1rem;
     /* display: grid; */
     grid-template-columns: 1fr;
     justify-content: center;
+
     height: 100%;
     margin: 2.5rem 2rem;
  /* position: relative; */
-    display: none;
+    display: grid;
 }
 .licenses-overlay{
 color: #fff;
@@ -427,8 +437,7 @@ justify-items: center;
 flex-direction: column;
 align-items: center;
 overflow-y: scroll;
-margin-left: 2rem;
-margin-right: 2rem;
+margin: 1rem auto;
 }
 .album-art-container{
     display: flex;
@@ -472,7 +481,7 @@ margin-right: 2rem;
     padding: 2.4rem 1.5rem;
     max-width: 400px;
     width: 100%;
-    margin: 1rem;
+    margin: 1rem auto;
 }
 .license-details{
     display: flex;
