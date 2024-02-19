@@ -500,6 +500,10 @@ margin-right: 2rem;
 .license-terms .item-price{
     color: #000 !important;
 }
+.license-specific-price{
+    user-select: none;
+    cursor: pointer;
+}
 .license-terms .fa-shopping-cart{
     font-size: 0.8rem;
     margin-right: 0.6rem;
