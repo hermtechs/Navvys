@@ -362,7 +362,8 @@ margin-top: 1rem;
     grid-template-columns: 1fr;
     justify-content: center;
     height: 100%;
-    /* position: relative; */
+    margin: 2.5rem 2rem;
+ /* position: relative; */
 }
 .licenses-overlay{
 color: #fff;
@@ -376,7 +377,6 @@ min-height: 100%;
 width: 100%;
 background: #080421;
 z-index: 1000;
-margin: 2.5rem 2rem;
 max-width: 500px;
 display: flex;
 grid-template-columns: 1fr;
@@ -394,7 +394,7 @@ overflow-y: scroll;
     text-align: center;
     text-transform: uppercase;
     padding: 1rem;
-    margin-top: 1.8rem;
+    margin-top: 1.8rem;  
 }
 .album-art-container .beat-title{
     max-width: 180px;
@@ -421,7 +421,6 @@ overflow-y: scroll;
     max-width: 400px;
     width: 100%;
     margin: 1rem;
-
 }
 .license-details{
     display: flex;
