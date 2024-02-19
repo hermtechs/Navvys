@@ -6,6 +6,15 @@ const shoppingCartMainContainer = document.querySelector(
 const openCartBtn = document.querySelector(".cart-count-icon");
 const closeLicensesOverlayBtn = document.querySelector(".close-overlay-btn");
 const licensesOverlay = document.querySelector(".licenses-overlay");
+const licensesContainer = document.querySelector(".licenses-container");
+const closeAudioPlayerBtn = document.querySelector(".close-audio-player-btn");
+const audioPlayer = document.querySelector(".audio-player-container");
+const addProductToCartBtns = document.querySelectorAll(
+  ".add-to-cart-btn-container"
+);
+addProductToCartBtns.forEach((btn) =>
+  btn.addEventListener("click", openLicensesOverlay)
+);
 
 closeCartBtn.addEventListener("click", () => {
   shoppingCartMainContainer.classList.add("close-entire-cart");
@@ -17,8 +26,10 @@ openCartBtn.addEventListener("click", () => {
     shoppingCartMainContainer.classList.add("close-entire-cart");
   }
 });
-closeLicensesOverlayBtn.addEventListener("click", () => {
-  licensesOverlay.style.display = "none";
+
+closeAudioPlayerBtn.addEventListener("click", () => {
+  audioPlayer.classList.add("closing-audio-player");
+  console.log("clicked");
 });
 
 const data = [
@@ -58,3 +69,9 @@ const data = [
     licence: "exclusive",
   },
 ];
+function openLicensesOverlay() {
+  licensesContainer.style.display = "grid";
+}
+closeLicensesOverlayBtn.addEventListener("click", () => {
+  licensesContainer.style.display = "none";
+});
