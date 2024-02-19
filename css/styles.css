@@ -257,8 +257,16 @@ nav h3{
     left: 0;
 }
 .audio-player-container i{
-color: #fff;
+color: #a29d9d;
 margin-right: 1rem;
+font-size: 0.8rem;
+}
+.audio-player-container .audio-title{
+color: #a29d9d;
+font-size: 0.9rem;
+}
+.audio-player-container .audio-play-btn{
+    font-size: 1.1rem ;
 }
 .audio-player-container img{
     width: 30px;
