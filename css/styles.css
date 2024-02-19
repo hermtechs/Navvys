@@ -374,9 +374,9 @@ right:0;
 height: 700px;
 min-height: 100%;
 width: 100%;
-background: #261e4d;
+background: #080421;
 z-index: 1000;
-margin: 2rem;
+margin: 2.5rem 2rem;
 max-width: 500px;
 display: flex;
 grid-template-columns: 1fr;
@@ -393,7 +393,8 @@ overflow-y: scroll;
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
-    padding: 1rem;;
+    padding: 1rem;
+    margin-top: 1.8rem;
 }
 .album-art-container .beat-title{
     max-width: 180px;
@@ -415,7 +416,7 @@ overflow-y: scroll;
     max-height: 55px;
 }
 .license-details-container{
-    background: #080421;
+    background: #191435;
     padding: 2.4rem 1.5rem;
     max-width: 400px;
     width: 100%;
@@ -491,4 +492,12 @@ font-size: 0.7rem
       height: 100%;
         max-height: 380px;
     }
+}
+@media (max-width:400px){
+    .license-details-container{
+        padding: 2rem 1.1rem;
+        max-width: 300px;
+        width: 100%;
+        margin: 1rem;
+    } 
 }
